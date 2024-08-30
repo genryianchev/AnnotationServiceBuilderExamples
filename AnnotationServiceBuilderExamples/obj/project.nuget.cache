@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yGOHYkI51Z1wsZJ2RJzrS0kU1w1Tmszgb4dje4RpYQycmH9PrD10caOMzkxT28c4T265+T/jNoyg1n0JecwHLQ==",
+  "dgSpecHash": "Eh+hL8THQ3FE5ei5jgEN+aw1IjcWdBgtGVPlRafLGmahEY77M32vlEoregE+Eq+ASPtcjKwoPS+F/blA3wTcGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gena\\source\\repos\\ClassLibrary1\\AnnotationServiceBuilderExamples\\AnnotationServiceBuilderExamples\\AnnotationServiceBuilderExamples.csproj",
+  "projectFilePath": "C:\\Users\\Gena\\source\\repos\\AnnotationServiceBuilderExamples\\AnnotationServiceBuilderExamples\\AnnotationServiceBuilderExamples.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Gena\\.nuget\\packages\\annotationservicebuilder\\1.1.2\\annotationservicebuilder.1.1.2.nupkg.sha512",
+    "C:\\Users\\Gena\\.nuget\\packages\\annotationservicebuilder\\1.1.3\\annotationservicebuilder.1.1.3.nupkg.sha512",
     "C:\\Users\\Gena\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Gena\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\Gena\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

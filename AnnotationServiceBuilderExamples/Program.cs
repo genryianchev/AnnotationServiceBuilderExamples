@@ -5,21 +5,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 var baseUrl = new Uri("https://jsonplaceholder.typicode.com");
 
-// Add services to the container.
+//Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-builder.Services.AddSingleton<WeatherForecastService>();
+//builder.Services.AddSingleton<WeatherForecastService>();
 
-builder.Services.AddTransient<SessionHelper>();
-builder.Services.AddTransient<AuthHeaderHandler>();
+//builder.Services.AddTransient<SessionHelper>();
+//builder.Services.AddTransient<AuthHeaderHandler>();
 
-builder.Services.AddScoped<IPostsRepository, PostsRepository>();
-builder.Services.AddScoped<IPostsService, PostsService>();
+//builder.Services.AddScoped<IPostsRepository, PostsRepository>();
+//builder.Services.AddScoped<IPostsService, PostsService>();
 
-builder.Services.AddRefitClient<IPostsApi>()
-.ConfigureHttpClient(c => c.BaseAddress = baseUrl)
-.AddHttpMessageHandler<AuthHeaderHandler>();
+//builder.Services.AddRefitClient<IPostsApi>()
+//.ConfigureHttpClient(c => c.BaseAddress = baseUrl)
+//.AddHttpMessageHandler<AuthHeaderHandler>();
 
 
 AnnotationServiceRegistrar.Initialize(Assembly.GetExecutingAssembly());
