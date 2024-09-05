@@ -54,7 +54,6 @@ C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBui
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\bin\Debug\net6.0\AnnotationServiceBuilderExamples.runtimeconfig.json
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\bin\Debug\net6.0\AnnotationServiceBuilderExamples.dll
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\bin\Debug\net6.0\AnnotationServiceBuilderExamples.pdb
-C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\bin\Debug\net6.0\AnnotationServiceBuilder.dll
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -94,3 +93,4 @@ C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBui
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\obj\Debug\net6.0\AnnotationServiceBuilderExamples.pdb
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\obj\Debug\net6.0\AnnotationServiceBuilderExamples.genruntimeconfig.cache
 C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\obj\Debug\net6.0\ref\AnnotationServiceBuilderExamples.dll
+C:\Users\Gena\source\repos\AnnotationServiceBuilderExamples\AnnotationServiceBuilderExamples\bin\Debug\net6.0\AnnotationServiceBuilder.dll

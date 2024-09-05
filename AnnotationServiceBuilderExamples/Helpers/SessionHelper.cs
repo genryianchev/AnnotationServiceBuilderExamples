@@ -1,4 +1,4 @@
-﻿using AnnotationServiceBuilder.Data.Transient_Services;
+﻿using AnnotationServiceBuilder.Annotations.Transient;
 
 namespace AnnotationServiceBuilderExamples.Helpers
 {

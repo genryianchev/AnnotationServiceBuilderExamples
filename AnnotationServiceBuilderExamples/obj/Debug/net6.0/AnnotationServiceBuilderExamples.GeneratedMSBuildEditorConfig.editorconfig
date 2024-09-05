@@ -29,6 +29,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Gena/source/repos/AnnotationServiceBuilderExamples/AnnotationServiceBuilderExamples/Pages/FetchFactoryPosts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hGYWN0b3J5UG9zdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Gena/source/repos/AnnotationServiceBuilderExamples/AnnotationServiceBuilderExamples/Pages/FetchPosts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hQb3N0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

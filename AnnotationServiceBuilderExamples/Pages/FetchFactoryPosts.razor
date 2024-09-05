@@ -1,0 +1,47 @@
+﻿@page "/factory-posts"
+@using AnnotationServiceBuilderExamples.Data
+@using AnnotationServiceBuilderExamples.Data.Models
+@using AnnotationServiceBuilderExamples.Data.Services;
+
+@inject PostFactoryService PostFactoryService
+
+<h3>Post Factory Demo</h3>
+
+<button @onclick="CreatePost">Create Post</button>
+
+@if (posts != null && posts.Count > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var post in posts)
+            {
+                <tr>
+                    <td>@post.UserId</td>
+                    <td>@post.Title</td>
+                    <td>@post.Body</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No posts available. Click "Create Post" to add data.</p>
+}
+
+@code {
+    private List<Post> posts = new();
+
+    private void CreatePost()
+    {
+        var newPost = PostFactoryService.CreateNewPost(posts.Count + 1, $"Sample Title {posts.Count + 1}", "This is the body of the post.");
+        posts.Add(newPost);
+    }
+}

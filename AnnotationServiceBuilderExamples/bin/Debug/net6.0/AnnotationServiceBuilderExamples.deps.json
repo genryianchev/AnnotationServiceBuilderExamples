@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "AnnotationServiceBuilderExamples/1.0.0": {
         "dependencies": {
-          "AnnotationServiceBuilder": "1.1.3",
+          "AnnotationServiceBuilder": "1.1.6",
           "Refit": "7.1.2",
           "Refit.HttpClientFactory": "7.1.2"
         },
@@ -16,7 +16,7 @@
           "AnnotationServiceBuilderExamples.dll": {}
         }
       },
-      "AnnotationServiceBuilder/1.1.3": {
+      "AnnotationServiceBuilder/1.1.6": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
           "Refit": "7.1.2",
@@ -24,8 +24,8 @@
         },
         "runtime": {
           "lib/net6.0/AnnotationServiceBuilder.dll": {
-            "assemblyVersion": "1.1.3.0",
-            "fileVersion": "1.1.3.0"
+            "assemblyVersion": "1.1.6.0",
+            "fileVersion": "1.1.6.0"
           }
         }
       },
@@ -195,12 +195,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AnnotationServiceBuilder/1.1.3": {
+    "AnnotationServiceBuilder/1.1.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zeEhgGHtr+wUguaLdrN1T1n5mhxp5qno7jbsI3JeG9DSbvQ1Nv2A5tRaT+A7sadm+Wd/T3fIRZxFLTK+r2keNQ==",
-      "path": "annotationservicebuilder/1.1.3",
-      "hashPath": "annotationservicebuilder.1.1.3.nupkg.sha512"
+      "sha512": "sha512-35hyfhb9Fh8BM80KCTKuUJ0dHAdpM+l33Ipx2TfGOLZiF07SmvEifV7Yro6ZIok+IU3LykpJ2ITFwicJ0Me1Yw==",
+      "path": "annotationservicebuilder/1.1.6",
+      "hashPath": "annotationservicebuilder.1.1.6.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
       "type": "package",

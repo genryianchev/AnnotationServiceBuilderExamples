@@ -29,6 +29,9 @@ AnnotationServiceRegistrar.AddScopedServices(builder.Services);
 AnnotationServiceRegistrar.AddTransientServices(builder.Services);
 AnnotationServiceRegistrar.AddRefitClients(builder.Services, "https://jsonplaceholder.typicode.com"); // Replace with your API base URL
 
+//// Register factory pattern 
+AnnotationPatternRegistrar.AddFactoryPatternServices(builder.Services);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
