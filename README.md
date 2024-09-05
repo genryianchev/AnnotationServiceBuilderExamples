@@ -1,4 +1,3 @@
-
 # ![AnnotationServiceBuilder Icon](https://github.com/genryianchev/AnnotationServiceBuilder/raw/main/AnnotationServiceBuilder/icon.png) AnnotationServiceBuilderExamples
 
 **AnnotationServiceBuilderExamples** is a repository containing example projects that demonstrate how to use the AnnotationServiceBuilder library. These examples cover various scenarios such as using Scoped, Singleton, and Transient services, as well as using Refit clients.
@@ -120,6 +119,57 @@ namespace AnnotationServiceBuilderExamples.Network.Repositories
 }
 ```
 
+### 5. Example of Using the Factory Pattern
+
+**PostFactory.cs:**
+
+```csharp
+using AnnotationServiceBuilder.Annotations.Patterns.CreationalDesignPatterns.Factory;
+using AnnotationServiceBuilderExamples.Data.Models;
+
+namespace AnnotationServiceBuilderExamples.Data
+{
+    [FactoryPattern(typeof(IFactory<Post>))]
+    public class PostFactory : IFactory<Post>
+    {
+        public Post Create()
+        {
+            return new Post();
+        }
+    }
+}
+```
+
+**PostFactoryService.cs:**
+
+```csharp
+using AnnotationServiceBuilder.Annotations.Patterns.CreationalDesignPatterns.Factory;
+using AnnotationServiceBuilder.Annotations.Transient;
+using AnnotationServiceBuilderExamples.Data.Models;
+
+namespace AnnotationServiceBuilderExamples.Data
+{
+    [TransientService]
+    public class PostFactoryService
+    {
+        private readonly IFactory<Post> _postFactory;
+
+        public PostFactoryService(IFactory<Post> postFactory)
+        {
+            _postFactory = postFactory;
+        }
+
+        public Post CreateNewPost(int id, string title, string body)
+        {
+            var post = _postFactory.Create();
+            post.Id = id;
+            post.Title = title;
+            post.Body = body;
+            return post;
+        }
+    }
+}
+```
 ## Video Guides
 
 For video guides on how to use AnnotationServiceBuilder, you can watch these YouTube videos:
@@ -177,5 +227,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
----
