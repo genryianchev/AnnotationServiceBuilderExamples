@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AnnotationServiceBuilder/1.1.6": {
+      "AnnotationServiceBuilder/1.1.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -295,14 +295,14 @@
     }
   },
   "libraries": {
-    "AnnotationServiceBuilder/1.1.6": {
-      "sha512": "35hyfhb9Fh8BM80KCTKuUJ0dHAdpM+l33Ipx2TfGOLZiF07SmvEifV7Yro6ZIok+IU3LykpJ2ITFwicJ0Me1Yw==",
+    "AnnotationServiceBuilder/1.1.7": {
+      "sha512": "s/uyExgVFb2O2jvWVJdI1TBcKOV+0Ma0XBK61FLaxvXBK59MJf5t4GdYYdAMLrQcpinxsM5urT5EZ0O1dnbW5Q==",
       "type": "package",
-      "path": "annotationservicebuilder/1.1.6",
+      "path": "annotationservicebuilder/1.1.7",
       "files": [
         ".nupkg.metadata",
         "README.md",
-        "annotationservicebuilder.1.1.6.nupkg.sha512",
+        "annotationservicebuilder.1.1.7.nupkg.sha512",
         "annotationservicebuilder.nuspec",
         "icon.png",
         "lib/net6.0/AnnotationServiceBuilder.dll"
@@ -829,7 +829,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AnnotationServiceBuilder >= 1.1.6",
+      "AnnotationServiceBuilder >= 1.1.7",
       "Refit >= 7.1.2",
       "Refit.HttpClientFactory >= 7.1.2"
     ]
@@ -876,7 +876,7 @@
         "dependencies": {
           "AnnotationServiceBuilder": {
             "target": "Package",
-            "version": "[1.1.6, )"
+            "version": "[1.1.7, )"
           },
           "Refit": {
             "target": "Package",
